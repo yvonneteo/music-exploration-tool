@@ -101,20 +101,33 @@ After building up the web app and incorporating some visualisations, it was nece
 
 ### Technical development steps
 The technical steps of the development process could be visualised as follows:
-1. Exploration of libraries and tools: This was done at the start of the project, and included experiments on Jupyter notebooks, as well as reading through documentation and articles about commonly-used libraries and tools. 
-  i. Different ways of interacting with Spotify API
-  ii. Different web app platforms/frameworks (e.g. Streamlit, Dash, Gradio)
-  iii. Different data visualisation libraries (e.g. Matplotlib, Seaborn, Plotly, Altair)
+1. Exploration of libraries and tools: This was done at the start of the project, and included experiments on Jupyter notebooks, as well as reading through documentation and articles about commonly-used libraries and tools.
+   
+   i. Different ways of interacting with Spotify API
+
+   ii. Different web app platforms/frameworks (e.g. Streamlit, Dash, Gradio)
+  
+   iii. Different data visualisation libraries (e.g. Matplotlib, Seaborn, Plotly, Altair)
+  
 2. Building the streamlit app: Once decisions were made regarding the libraries to use, PyCharm was used with a Poetry environment to start writing a Python script. Code was then refactored into functions and moved to a methods.py file from which they were imported. This resulted in cleaner code.
-  i. Coding the main page for Streamlit with the idea of using tabs
-  ii. Figuring out the flow for importing data, on which the other components in the app relied, then deciding instead to use a multi-page Streamlit app
-  iii. Experimenting with Streamlit components to control flow such as st.form, st.session_state, st.experimental_rerun and st.cache_data
+
+   i. Coding the main page for Streamlit with the idea of using tabs
+
+   ii. Figuring out the flow for importing data, on which the other components in the app relied, then deciding instead to use a multi-page Streamlit app
+
+   iii. Experimenting with Streamlit components to control flow such as st.form, st.session_state, st.experimental_rerun and st.cache_data
+   
 3. Programming data visualisations:
-  i. Using online resources like StackOverflow and Plotly documentation to figure out how to write data visualisation code
-  ii. Lots of trials and errors
+
+   i. Using online resources like StackOverflow and Plotly documentation to figure out how to write data visualisation code
+  
+   ii. Lots of trials and errors
+  
 4. Testing app
-  i. Testing different combinations of user selections such as different feature sets, different ways of importing data, jumping across different pages not necessarily in the order of Data, Data Visualisations and Clustering after importing data
-  ii. Tweaking instructions and if-else conditions, adding success and error messages so that the user knows what is going on
+   
+   i. Testing different combinations of user selections such as different feature sets, different ways of importing data, jumping across different pages not necessarily in the order of Data, Data Visualisations and Clustering after importing data
+   
+   ii. Tweaking instructions and if-else conditions, adding success and error messages so that the user knows what is going on
 
 ### Challenges
 #### Control Flow
@@ -139,7 +152,7 @@ Finally, it would be a useful functionality to have a Spotify player embedded so
 In conclusion, this was in general a successful project, as a music exploration tool web-app was successfully built, with most of the functionality aimed for in an earlier Statement of Interest, which can be found in the appendices. However, certain aspects such as data visualisation and general user functionality could be improved in the future. Appendices
 
 
-### Appendix A: Tutorials and Documentation
+### Appendix: Tutorials and Documentation
 Tutorial for installing pip:
 https://phoenixnap.com/kb/install-pip-mac
 https://phoenixnap.com/kb/install-pip-windows
